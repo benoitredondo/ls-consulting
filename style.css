@@ -1,3 +1,48 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #23415c;
+  padding: 1%, 0;
+  font-size: 1.2em;
+}
+
+.navbar-brand {
+  min-height: 55px;
+  padding: 0px 15px 5px;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #d5d5d5;
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:active {
+  color: #fff;
+}
+
+#home {
+  background: url(assets/images/mountains.jpeg) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.landing-text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.landing-text h1 {
+  font-size: 500%;
+  font-weight: 700;
+}
+
 /*--- iOS Landing Page Fix
 section {
  	position: relative;
