@@ -4,24 +4,8 @@ body {
   width: 100%;
 }
 
-.navbar {
-  background-color: #23415c;
-  padding: 1%, 0;
-  font-size: 1.2em;
-}
-
-.navbar-brand {
-  min-height: 55px;
-  padding: 0px 15px 5px;
-}
-
-.navbar-default .navbar-nav li a {
-  color: #d5d5d5;
-}
-
-.navbar-default .navbar-nav li a:hover,
-.navbar-default .navbar-nav li a:active {
-  color: #fff;
+.btn {
+  margin-top: 10px;
 }
 
 #home {
@@ -30,6 +14,7 @@ body {
   height: 100%;
   position: relative;
   width: 100%;
+  background-size: cover;
 }
 
 .landing-text {
@@ -41,6 +26,46 @@ body {
 .landing-text h1 {
   font-size: 500%;
   font-weight: 700;
+}
+
+.padding {
+  padding: 80px 0;
+}
+
+.padding img {
+  width: 80%;
+}
+
+#fixed {
+  background: url(./assets/images/background.jpg) no-repeat center center fixed;
+  position: relative;
+  height: 600px;
+  width: auto;
+  background-size: cover;
+}
+
+footer {
+  width: 100%;
+  background-color: #23415c;
+  padding: 5% 5% 10% 5%;
+  color: white;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.fa:hover {
+  padding: 15px;
+  color: #d5d5d5;
+  text-decoration: none;
+}
+
+#icon {
+  max-width: 150px;
 }
 
 /*--- iOS Landing Page Fix
