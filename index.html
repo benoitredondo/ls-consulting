@@ -1,30 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Bootstrap Landing Page Website Tutorial</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link href="style.css" rel="stylesheet" />
-  </head>
+
+<head>
+  <title>LS CONSULTING</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">∏
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <iframe class="airtable-embed" src="https://airtable.com/embed/shrpsQydgMa1IvM7I?backgroundColor=yellow"
+            frameborder="0" onmousewheel="" width="100%" height="533"
+            style="background: transparent; border: 1px solid #ccc;"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #23415C">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="./assets/images/w3newbie.png">
+        <a style="color: whitesmoke;">LS Consulting Lyon</a>
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ms-auto" >
+        <div class="navbar-nav ms-auto">
           <a class="nav-link active" aria-current="page" href="#">Accueil</a>
           <a class="nav-link" href="#">A propos</a>
           <a class="nav-link" href="#">Contact</a>
@@ -32,20 +51,20 @@
       </div>
     </div>
   </nav>
-  
-
-
 
 
   <div id="home">
     <div class="landing-text">
       <h1>LS Consulting</h1>
-      <h3>Training center for smart companies</h3>
+      <h3>Conseils et formations en Ressources Humaines</h3>
       <div class="d-grid gap-2 d-md-block">
-        <button type="button" class="btn btn-outline-secondary">Contactez-moi</button>
+        <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">Contactez-nous</button>
       </div>
     </div>
   </div>
+
+
 
   <div class="padding">
     <div class="container">
@@ -54,7 +73,7 @@
           <img src="assets/images/bootstrap.png" class="img-responsive" />
         </div>
         <div class="col-sm-6">
-          <h2>All About Boostrap.</h2>
+          <h2>Nos services.</h2>
           <p class="lead">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
             cum, itaque et, at qui iure ducimus pariatur vero debitis totam
@@ -75,7 +94,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-            <h4>Built with Sass</h4>
+            <h4>Nos process de formation.</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
               et inventore harum eligendi nobis suscipit consequatur nemo,
@@ -87,7 +106,7 @@
             <img src="./assets/images/sass.png" class="img-responsive" />
           </div>
           <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-            <h4>And less</h4>
+            <h4>Conseil en ressources humaines</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
               et inventore harum eligendi nobis suscipit consequatur nemo,
@@ -102,17 +121,15 @@
       </div>
     </div>
 
-  <div id='fixed'>
-    
-  </div>
- 
-    
+    <div id='fixed'>
+
+    </div>
 
     <div class="padding">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <h2>Here is the cool thing about Boostrap</h2>
+            <h2>Nos clients témoignent.</h2>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas
               magnam neque tempora vero nam odio iusto alias dicta praesentium
@@ -140,13 +157,16 @@
     <footer class="container-fluid text-center">
       <div class="row">
         <div class="col-sm-4">
-          <h3>Contact Us</h3>
+          <h3 style="font-weight: bolder;">Contactez nous : </h3>
           <br>
-          <h4>Our adress and contact info here</h4>
+          <h4>5 rue Sébastien Griphe</h4>
+          <h4>69 007 Lyon</h4>
+          <br>
+          <h4>06 60 12 24 32</h4>
         </div>
 
         <div class="col-sm-4">
-          <h3>Connect</h3>
+          <h3>Restez connectez :</h3>
           <br>
           <a href="#" class="fa fa-facebook"></a>
           <a href="#" class="fa fa-twitter"></a>
@@ -157,35 +177,8 @@
         <div class="col-sm-4">
           <img id='icon' src="/assets/images/b.png">
         </div>
-
       </div>
-
     </footer>
-
-      <!--- iOS Landing Page Fix
-<section>
-	<div class="landing-text">
-		<h1>BOOTSTRAP</h1>
-		<h3>Learn the basic building blocks.</h3>
-		<a href="#" class="btn btn-default btn-lg">Get Started</a>
-	</div>
-	<div class="home-wrap">
-        <div id="home">
-		</div>
-    </div>
-</section>
--->
-
-      <!--- iOS Fixed Image Fix
-<figure>
-	<div class="fixed-wrap">
-        <div id="fixed">
-		</div>
-    </div>
-</figure>
--->
-
-<!---->
-
 </body>
+
 </html>
