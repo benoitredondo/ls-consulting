@@ -14,7 +14,7 @@ nav a {
 }
 
 #home {
-  background: url(assets/images/mountains.jpeg) no-repeat center center fixed;
+  background: url(assets/images/workspace.jpg) no-repeat center center fixed;
   display: table;
   height: 100%;
   position: relative;
@@ -26,6 +26,7 @@ nav a {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+  color: aliceblue;
 }
 
 .landing-text h1 {
@@ -42,16 +43,17 @@ nav a {
 }
 
 #fixed {
-  background: url(./assets/images/background.jpg) no-repeat center center fixed;
+  background: url(./assets/images/office.jpeg) no-repeat center center fixed;
   position: relative;
   height: 600px;
   width: auto;
   background-size: cover;
+  opacity: 50%;
 }
 
 footer {
   width: 100%;
-  background-color: #23415c;
+  background-color: #7a6c5d;
   padding: 5% 5% 10% 5%;
   color: white;
 }
