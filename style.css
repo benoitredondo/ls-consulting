@@ -58,19 +58,6 @@ footer {
   color: white;
 }
 
-.fa {
-  padding: 15px;
-  font-size: 25px;
-  color: white;
-  text-decoration: none;
-}
-
-.fa:hover {
-  padding: 15px;
-  color: #d5d5d5;
-  text-decoration: none;
-}
-
 #icon {
   max-width: 150px;
 }
