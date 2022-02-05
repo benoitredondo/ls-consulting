@@ -24,12 +24,12 @@ nav a {
 
 #apropos {
   width: 100vw;
-  height: 98vh;
+  height: 97vh;
 }
 
 #services {
   width: 100vw;
-  height: 70vh;
+  height: 98vh;
 }
 
 .landing-text {
@@ -50,6 +50,10 @@ nav a {
 
 .padding img {
   width: 80%;
+}
+
+.card {
+  display: inline-flex;
 }
 
 #fixed {
