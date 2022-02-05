@@ -50,6 +50,16 @@ body {
   display: inline-flex;
 }
 
+#mains {
+  filter: invert(45%) sepia(20%) saturate(410%) hue-rotate(350deg)
+    brightness(90%) contrast(88%);
+}
+
+#livre {
+  filter: invert(45%) sepia(20%) saturate(410%) hue-rotate(350deg)
+    brightness(90%) contrast(88%);
+}
+
 #fixed {
   background: url(./assets/images/office.jpeg) no-repeat center center fixed;
   position: relative;
