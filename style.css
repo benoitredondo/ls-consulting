@@ -22,16 +22,6 @@ nav a {
   background-size: cover;
 }
 
-#apropos {
-  width: 100vw;
-  height: 97vh;
-}
-
-#services {
-  width: 100vw;
-  height: 98vh;
-}
-
 .landing-text {
   display: table-cell;
   text-align: center;
@@ -70,8 +60,4 @@ footer {
   background-color: #7a6c5d;
   padding: 5% 5% 10% 5%;
   color: white;
-}
-
-#icon {
-  max-width: 200px;
 }
