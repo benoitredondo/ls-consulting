@@ -9,9 +9,6 @@ nav a {
   font-weight: bolder;
   color: white;
 }
-.btn {
-  margin-top: 10px;
-}
 
 #home {
   background: url(assets/images/workspace.jpg) no-repeat center center fixed;
@@ -22,8 +19,18 @@ nav a {
   background-size: cover;
 }
 
-p {
+.apropos p {
   text-align: justify;
+}
+
+#livre {
+  filter: invert(42%) sepia(30%) saturate(267%) hue-rotate(350deg)
+    brightness(94%) contrast(84%);
+}
+
+#main {
+  filter: invert(42%) sepia(30%) saturate(267%) hue-rotate(350deg)
+    brightness(94%) contrast(84%);
 }
 
 .landing-text {
