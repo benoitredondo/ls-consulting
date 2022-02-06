@@ -22,6 +22,10 @@ nav a {
   background-size: cover;
 }
 
+p {
+  text-align: justify;
+}
+
 .landing-text {
   display: table-cell;
   text-align: center;
