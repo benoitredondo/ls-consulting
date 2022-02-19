@@ -6,6 +6,13 @@ body {
   font-size: 18px;
 }
 
+@media screen and (max-width: 1025px) {
+  html,
+  body {
+    font-size: 10px;
+  }
+}
+
 #home {
   background: url(assets/images/workspace.jpg) no-repeat center center fixed;
   display: table;
@@ -57,7 +64,7 @@ body {
   grid-row-start: 4;
   grid-row-end: 4;
   grid-column-start: 2;
-  font-size: 1rem;
+  font-size: 0.99rem;
   text-align: justify;
   align-self: center;
 }
