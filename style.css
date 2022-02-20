@@ -168,12 +168,11 @@ footer {
   }
   #services {
     grid-template-rows: 0.5fr 0.5fr 1fr 1fr 0.5fr;
-    grid-template-columns: 0.25fr 1fr 0.25fr;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
   }
   #services > h2 {
-    grid-row: 2;
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-row: 1;
+    align-self: end;
   }
 
   #card1 {
