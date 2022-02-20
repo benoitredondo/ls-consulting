@@ -173,7 +173,9 @@ footer {
   }
   #services > h2 {
     grid-row: 1;
+    grid-column: 2;
     align-self: end;
+    justify-self: center;
   }
 
   #card1 {
