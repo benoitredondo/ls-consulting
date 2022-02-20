@@ -166,4 +166,40 @@ footer {
     grid-row: 4;
     grid-column: 2;
   }
+  #services {
+    grid-template-rows: 0.5fr 0.5fr 1fr 1fr 0.5fr;
+    grid-template-columns: 0.25fr 1fr 0.25fr;
+  }
+  #services > h2 {
+    grid-row: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  #card1 {
+    grid-row: 3;
+    grid-column: 2;
+    align-self: center;
+    justify-self: center;
+  }
+
+  #card2 {
+    grid-row: 4;
+    grid-column: 2;
+    align-self: center;
+    justify-self: center;
+  }
+
+  footer {
+    height: 70px;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    align-self: flex-end;
+    width: 100%;
+    background-color: #7a6c5d;
+    padding: 5% 5% 10% 5%;
+    color: white;
+  }
 }
