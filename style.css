@@ -168,7 +168,7 @@ footer {
     grid-column: 2;
   }
   #services {
-    grid-template-rows: 0.5fr 0.5fr 1fr 1fr 0.5fr;
+    grid-template-rows: 0.5fr 0.25fr 1fr 0.1fr 1fr 0.5fr;
     grid-template-columns: 0.5fr 1fr 0.5fr;
   }
   #services > h2 {
@@ -186,7 +186,7 @@ footer {
   }
 
   #card2 {
-    grid-row: 4;
+    grid-row: 5;
     grid-column: 2;
     align-self: center;
     justify-self: center;
@@ -194,8 +194,8 @@ footer {
 
   footer {
     height: 70px;
-    grid-row-start: 5;
-    grid-row-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 6;
     grid-column-start: 1;
     grid-column-end: 4;
     align-self: flex-end;
